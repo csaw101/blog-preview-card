@@ -1,0 +1,54 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  place-items: center;
+
+  min-width: 320px;
+  min-height: 100vh;
+
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+/*******
+* Card *
+*******/
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1.4em;
+  margin: auto 1.5em;
+  box-shadow: 8px 9px 0px 0px rgb(24, 19, 19);
+  max-width: 300px;
+}
+
+.card-tag {
+  padding: 0.5em 1.3em;
+  width: fit-content;
+}
+
+.card-header {
+  width: fit-content;
+}
+
+.card-author {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1em;
+}
+
+.card-profile-photo img {
+  height: 2em;
+}

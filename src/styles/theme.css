@@ -1,7 +1,66 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+:root {
+  --yellow-color: hsl(47, 88%, 63%);
+  --dark-text-color: hsl(0, 0%, 7%);
+  --light-text-color: hsl(0, 0%, 42%);
+  --white-color: hsl(0, 0%, 100%);
+  font-family: "Figtree";
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+.app {
+  background-color: var(--yellow-color);
+  color: var(--dark-text-color);
+  font-weight: 500;
+}
+
+/*******
+* Card *
+*******/
+.card {
+  background-color: var(--white-color);
+  border-radius: 1em;
+  border: solid 1px var(--dark-text-color);
+}
+
+.card-image img {
+  border-radius: 0.5em;
+}
+
+.card-tag {
+  background-color: var(--yellow-color);
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 0.5em;
+  cursor: pointer;
+}
+
+.card-date {
+  font-size: 0.5em;
+}
+
+.card-header {
+  font-weight: 800;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.card-header:hover {
+  color: var(--yellow-color);
+}
+
+.card-description {
+  color: var(--light-text-color);
+  font-size: 0.5em;
+}
+
+.card-author {
+  cursor: pointer;
+}
+
+.card-profile-name {
+  font-weight: 800;
+  font-size: 0.9em;
 }
