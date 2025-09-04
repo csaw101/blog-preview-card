@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/blog-preview-card-using-flexbox-fT99rDlJde)
+- Live Site URL: [Here](https://blog-preview-card-3gftoo45b-cool-guys-projects-09f00924.vercel.app/)
 
 ## My process
 
